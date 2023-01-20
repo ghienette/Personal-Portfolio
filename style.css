@@ -1,0 +1,261 @@
+/*
+DISCLAIMER:
+Project Tiles photos are from
+https://www.irasutoya.com/
+
+It is not mine.
+
+*/
+
+
+@media (max-width: 75em){
+    html{
+        font-size: 100%;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+
+body {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+h1, 
+h2 {
+    font-weight: 700;
+    /*text-align: center;*/
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* NAVIGATION BAR */
+
+.nav {
+    font-size: 18px;
+    color: #fff;
+    background-color: #C0DEFF;
+    padding: 20px 0;
+    margin-bottom: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+}
+
+.nav-list {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-list  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list a {
+    color: #171717;
+}
+
+.nav-list a:hover{
+    color: white;
+    
+}
+
+
+
+/* Welcome Section */
+
+
+.welcome-section {
+    margin-top: 0;
+    /*width: 900px;*/
+    color: #5995DA;
+    background: url('images/bg-header-2.png') no-repeat;
+    background-size: auto;
+    background-color: #C0DEFF;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.welcome-section p {
+    font-style: italic;
+}
+
+
+
+/*
+.welcome-section > h1 {
+    margin-bottom: 0;
+}
+
+.welcome-section > p {
+    text-align: center;
+    margin-top: 0;
+}
+*/
+
+/* PROJECTS GRID */
+
+.projects-section {
+    margin: 0;
+    padding: 20px 0;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.projects-section-header {
+    text-align: center;
+}
+
+.projects-grid-row-1 {
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px;  
+    flex-wrap: wrap;
+}
+
+.projects-grid-row-2 {
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px;  
+    flex-wrap: wrap;
+}
+
+.project-tile-container {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+.project-tile {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+  
+
+}
+
+.tile-1 {
+    background: url('images/bg_namikimichi1_sakura-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tile-2 {
+    background: url('images/landmark_tausyubetsu_bridge.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tile-3 {
+    background: url('images/train_arashiyama_torokko.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tile-4 {
+    background: url('images/bg_lavender_flower.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-tile{
+    font-size: 15px;
+    color: #171717;
+}
+
+.code {
+    color: var(--main-gray);
+    transition: color 0.3s ease-in-out;
+}
+
+.project-tile:hover .code{
+    color: #ADA2FF;
+}
+
+
+
+.show-all {
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid #ADA2FF;
+    border-radius: 2rem;
+    align-items: center;
+    font-size: 15px;
+}
+
+.show-all:hover {
+    background-color: #FFE5F1;
+    border: 2px solid #5995DA;
+}
+
+
+
+/* FOOTER */
+
+.contact-section{
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    background: #FFE5F1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-section i {
+    font-size: 20px;
+}
+
+.contact-links{
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.contact-links a{
+    color: #ADA2FF;
+}
+
+.contact-links a:hover{
+    transform: translateY(-5px);
+}
